@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Eye-Read",
+  "description": "눈동자 추적 기술을 통해 독서 집중력을 분석하고 양면 페이지 독서 경험을 제공하는 AI 도서관입니다.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
