@@ -1,0 +1,1 @@
+scrcpy.exe -m 1024

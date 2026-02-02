@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"f:\\MyWorkSpace\\adbTools\\adb_tool\")",
+      "Bash(findstr:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(dir:*)",
+      "Bash(echo:*)",
+      "Bash(powershell -Command \"Get-Item ''dist\\WJ_Pad_Controller.exe'' | Select-Object Name, @{Name=''SizeMB'';Expression={[math]::Round($_Length/1MB,2)}}\")",
+      "Bash(powershell -Command:*)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

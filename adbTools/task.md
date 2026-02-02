@@ -1,0 +1,22 @@
+# ADB GUI Tool Development
+
+- [x] Create project structure and plan <!-- id: 0 -->
+- [x] Implement `utils.py` for cross-platform terminal handling <!-- id: 1 -->
+- [x] Implement `adb_manager.py` for ADB logic and device mapping <!-- id: 2 -->
+- [x] Implement `gui.py` with Tkinter interface <!-- id: 3 -->
+- [x] Implement `main.py` entry point <!-- id: 4 -->
+- [x] Verify functionality and cross-platform compatibility logic <!-- id: 5 -->
+- [x] Localize GUI to Korean <!-- id: 6 -->
+- [x] Create `requirements.txt` and install dependencies (`ttkbootstrap`) <!-- id: 7 -->
+- [x] Upgrade GUI with `ttkbootstrap` for a modern look <!-- id: 8 -->
+- [x] Create `setup.py` for project packaging <!-- id: 9 -->
+- [x] Update `adb_manager.py` to use executables from `exec` directory <!-- id: 10 -->
+- [x] Refine GUI design (monochromatic/modern) <!-- id: 11 -->
+- [x] Implement output parsing for informational commands in `adb_manager.py` <!-- id: 12 -->
+- [x] Update `gui.py` to display parsed info instead of raw terminal output <!-- id: 13 -->
+- [x] Implement Screen Capture feature in `adb_manager.py` and `gui.py` <!-- id: 14 -->
+- [x] Add `tkinterdnd2` dependency <!-- id: 15 -->
+- [x] Implement Drag-and-Drop Popup for App Install in `gui.py` <!-- id: 16 -->
+- [x] Implement `get_installed_packages` in `adb_manager.py` <!-- id: 17 -->
+- [x] Create App Delete Popup with searchable list in `gui.py` <!-- id: 18 -->
+- [x] Implement Help Popup for device connection instructions in `gui.py` <!-- id: 19 -->

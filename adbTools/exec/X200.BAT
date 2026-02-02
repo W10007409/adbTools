@@ -1,0 +1,1 @@
+scrcpy --disable-screensaver --always-on-top -t --rotation 0 --max-size 1920 -w --turn-screen-off

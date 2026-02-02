@@ -1,0 +1,38 @@
+# ADB GUI Tool Walkthrough
+
+I have converted the ADB batch script into a cross-platform Python GUI application.
+
+## Features
+- **Device Selection**: Automatically detects connected ADB devices and maps them to friendly names (if defined).
+- **Action Buttons**: One-click access to all actions from the original batch file (Scrcpy, Logcat, Shell, etc.).
+- **Parameter Input**: A single input field for actions requiring arguments (Package Name, Tag, Broadcast Action).
+- **Cross-Platform**: 
+    - **Windows**: Opens new `cmd` windows for terminal actions.
+    - **macOS**: Opens new `Terminal.app` windows.
+
+## Prerequisites
+- Python 3.x installed.
+- `adb` installed and in your system PATH.
+- `scrcpy` installed and in your system PATH (for screen mirroring).
+- `tkinter` installed (usually comes with Python).
+
+## How to Run
+1. Open a terminal in the project directory.
+2. Run the following command:
+   ```bash
+   python -m adb_tool.main
+   ```
+
+## Project Structure
+- `adb_tool/`
+    - `main.py`: Entry point.
+    - `gui.py`: Tkinter GUI implementation.
+    - `adb_manager.py`: Logic for ADB commands and device mapping.
+    - `utils.py`: Utilities for opening terminal windows on Windows/macOS.
+
+## Usage
+1. **Select Device**: Choose a device from the dropdown. Click "Refresh" if your device isn't listed.
+2. **Enter Parameter**: If the action requires a package name or tag (e.g., "Logcat", "Install App"), type it in the "Parameter" box.
+3. **Click Action**: Click the button for the desired action.
+   - Actions like "Scrcpy", "Logcat", "Shell" will open a new terminal window.
+   - Background actions (Back button, Home button) will execute silently.

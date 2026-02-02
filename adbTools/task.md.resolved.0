@@ -1,0 +1,8 @@
+# ADB GUI Tool Development
+
+- [ ] Create project structure and plan <!-- id: 0 -->
+- [ ] Implement `utils.py` for cross-platform terminal handling <!-- id: 1 -->
+- [ ] Implement `adb_manager.py` for ADB logic and device mapping <!-- id: 2 -->
+- [ ] Implement `gui.py` with Tkinter interface <!-- id: 3 -->
+- [ ] Implement `main.py` entry point <!-- id: 4 -->
+- [ ] Verify functionality and cross-platform compatibility logic <!-- id: 5 -->
